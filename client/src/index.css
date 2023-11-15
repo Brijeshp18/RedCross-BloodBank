@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif!important;
+  padding: 0;
+  margin: 0;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input , textarea,select {
+  min-height: 40px!important;
+  border-bottom: 1px solid #6a6a6a;
+  border-radius: 2px!important;
+  width: 100%;
+}
+input:focus ,  textarea:focus{
+  box-shadow: none!important;
+}
+.ant-form-item{
+  margin-bottom: 0!important;
+}
+a:hover{
+  color:#6a6a6a!important;
+  text-decoration: underline!important;
+}
+a{
+  text-decoration:none!important ;
+}
+
+.bgc{
+  background: url('./assets/blood-cells.jpg')!important;
+  background-size: cover!important;
+  
+}
+button:hover{
+  background-color: #c32c2c!important;
+}
+i{
+  font-size: 20px !important;
+}
+.ant-form-item-label{
+  padding: 0 !important;
+}
+table{
+  border: 1px solid grey;
+}
